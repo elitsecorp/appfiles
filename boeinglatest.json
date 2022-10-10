@@ -1,0 +1,427 @@
+{
+    "bulletins": [
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-5r13",
+            "callSign": "ALL",
+            "summary": "Air systems: blank cabin temp due to lavatory/galley vent fan off on gound",
+            "description": "when lav/galley vent fan off, cabin temperatures show blank. ",
+            "operation": "None"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-5r13",
+            "callSign": "TG,TI,TH,TJ,TK,TL",
+            "summary": "communications(",
+            "description": "Inability to terminate multiple ATIS, TWIP automatic update requests",
+            "operation": "request only one ATIS-arrival with automatic update. In case the anomaly occurs, to terminate request repeat request for station."
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-5r13",
+            "callSign": "AOP",
+            "summary": "Flight controls",
+            "description": "Nusiance Eicas caution/advisory during external power  starts( messages might include FCTL, Auto Speed brake, spoilers, spoiler pairs)",
+            "operation": "None, message will clear after second engine start"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-5r13",
+            "callSign": "AOP",
+            "summary": "Flight management and Navigation",
+            "description": "Nusiance single source approach caution",
+            "operation": "None"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-5r13",
+            "callSign": "ALL",
+            "summary": "warning system",
+            "description": "Ground Proximity Nusiance message when flying >250 kts and selecting flap override/gear override",
+            "operation": "None"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-35 ri",
+            "callSign": "OT,OU,OV,RE,RF,SG,SH,SI,TL,TK,TJ,TH,TI,TG,UO,UP,UQ,UR,XK,XL,XS,YC",
+            "summary": "Anomalous Tat probe logic",
+            "description": "Tat voting logic error shows higher/lower tat",
+            "operation": "When using manual anti ice, turn on engine and wing anti ice above 15 degree c. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-40 r1",
+            "callSign": "OO,OT,OU,OV,RE,RF,SG,SH",
+            "summary": "MCP Altitude Select anomaly(aoo-ash)",
+            "description": "Pushing the altitude selector knob causes unexpected altitude changes",
+            "operation": "confirm altitude  is correct when pushing the altitude selector knob"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-49 R3",
+            "callSign": "TK",
+            "summary": "Lnav Guidance error in holding pattern(TK)",
+            "description": "LNAV does not follow Hold ",
+            "operation": "if airplane descends through 14000, make sure it stays on correct path till first inbound turn. Use Hdg select/trk select to correct path in case of deviation. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH -52 R2",
+            "callSign": "TK",
+            "summary": "FMC reset anomaly(ATK)",
+            "description": "FMC will reset if procedure turn is 28th leg of an active flight plan",
+            "operation": "Don’t' input procedure turn on the 28th leg (p6/l3)"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-54",
+            "callSign": "ALL",
+            "summary": "Nusiance Tail Strike Messages",
+            "description": "Tail Strike message may show in flight",
+            "operation": "If Tail strike shows during takeoff, consider message valid. If it shows in flight, consider it as nusiance. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-60 R1",
+            "callSign": "TG,UO,UP,UQ,UR",
+            "summary": "Uncommanded Engine shutdown during Landing Roll",
+            "description": "TCMA function shutds down both engines on ground",
+            "operation": "Make sure thrust revers are deployed after touchdown. After touch down, extend speedbrakes and deploy thrust revers without delay"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-63 R2",
+            "callSign": "All",
+            "summary": "(fmc pv3.0/A/B) Fmc reset when exiting hold",
+            "description": "If pilot selects and executes exit hold within 3 degrees of inbound holding leg, and does not execute but selects direct to hold fix, the FMC resets when aircraft  sequences the hold fix. Fligh plan and performance must be reinserted. ",
+            "operation": "Don’t' select exit hold, then select direct to hold fix, then sequence the hold fix with route in modified state"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-65 R6 ",
+            "callSign": "ALL",
+            "summary": "MCP Altitude anomalies",
+            "description": "MCP changes without flight crew action",
+            "operation": "If MCP ALT changes, AUTOPILOT, Pitch mode will be degraded. Set the correct alt on MCP, disengage the autopilot, both flight drectors off, engage autopilot and select desired modes, select both FD to ON. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-66 R1",
+            "callSign": "TK",
+            "summary": "VNAV path not available on Final Approach",
+            "description": "If waypoints sequence after the MAP before flying the approach, VNAV PATH will not engage",
+            "operation": "IF waypoint sequences past MAP, Reload approach and enter cruise alt on vnav cruise page before airplane sequences the final approach fix, the cruise altitude must be Greater than the highest altitude contraint in the FPL"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH -67 R1",
+            "callSign": "OO,OT,OV,RE,RF,SG,SH,SI,XK, XL",
+            "summary": " Additional Guidance on Ice Crystal Icing",
+            "description": "Use of Climb thrust or high trust settings when ice crystal anti-icing function is active ",
+            "operation": "avoid mcs (mesoscale convective system,use lateral deviations, relight will relight the a/c incase of flameout)"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-68 R1",
+            "callSign": "TK",
+            "summary": "Flight management RTA anomaly",
+            "description": "RTA does not correctly sequence from crusie to descent. Time RTA manually",
+            "operation": "Be aware"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-69 R3",
+            "callSign": "TL,TK,TJ,TH,TI,TG,UO",
+            "summary": "Engine Operating Restrictios(Only 1000 C engines)",
+            "description": "These engines have experienced Intermediate Pressure Compressor(IPC) rotor fail, affecting ETOPS ops. ",
+            "operation": "Different et-ops procedure. review procedures on FCOM Bulletins. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-71",
+            "callSign": "ALL",
+            "summary": "Automatic LNAV deactivation during Departure",
+            "description": "If approach is loaded prior to departure, if TOGA is pushed after takeoff, unwanted/unexpected AP modes show. ",
+            "operation": "Do not load instrument approach until after departure phase of flight"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-72 R2",
+            "callSign": "TK",
+            "summary": "FMC BP4 Administrative Bulletin",
+            "description": "Changes to fmc",
+            "operation": "Review FCOM"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-73 R1",
+            "callSign": "ALL",
+            "summary": "Unwanted GLIDESLOPE alert on IAN Approach",
+            "description": "Barometric pressure changes due to temprature can set off Glideslope Alert",
+            "operation": "Make sure correct QNH set, if alert occurs, silence GLIDESLOPE AURAL, Continue on VGSI path or reestablish FMC BASED barometric IAN Glide PATH, transition to visual approach and landing or Go Around"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-74",
+            "callSign": "UO,UP,UQ,UR,XK,XL,XS,YC",
+            "summary": "Premature Climb thrust reduction",
+            "description": "Premature Climb Thrust Reduction when Thrust reduction point is set to FLAPS 5",
+            "operation": "Don't use FLAPS 5 on Thrust reduction. Use Height"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-75 RI",
+            "callSign": "OO,OT,OU,OV,RE,RF,SG,SH,SI,TL,TK,TJ,TH,TI,TG,UO,UR,XK,XL",
+            "summary": "Engien fire switch fails locked/unlocked",
+            "description": "Due to heating, Fire switch can fail locked or unlocked.",
+            "operation": "If it fails locked, do the appropriate NNC, set fuel control switch to cutoff, set Hydraulic Eng Primary Pump Switch off for the affected side. If failed locked, Engine fire swith can be pulled inadvertently. Caution is advised. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-78",
+            "callSign": "ALL",
+            "summary": "NGIV Fails closed",
+            "description": "NGIV may fail in closed postions affecting operation of slats/Flaps/nose gear extension, and nose wheel steering",
+            "operation": "If SLATS_PRIMARY_FAIL shows during approach when slats are in commanded position, move flaps lever to 5. DO the checklists for all messages, plan additional time for alternate gear extension. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-80 RI",
+            "callSign": "UO-TL",
+            "summary": "Engine operating restrictions(only 1000 C engines)",
+            "description": "New operating instructions for these engines",
+            "operation": "Alternate ETOPs drift down procedures (review fcom)"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH- 81 RI",
+            "callSign": "ALL",
+            "summary": "Erroneous AFDS guidance when ILS signal interference occurs",
+            "description": "AFDS may provide high rates of descent and significant deviation from localizer. ",
+            "operation": "Monitor RAW data, call out any significant deviations,, perform go around if not within criteria"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-83 ",
+            "callSign": "ALL",
+            "summary": "Localizer capture Anomalies",
+            "description": "With LOC Captured, aircraft may continue flying through localizer. ",
+            "operation": "Monitor Localizer, if anomaly occurs, flight crew must intervene. If not intercepted loc by FAF, Go around. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-84",
+            "callSign": "ALL",
+            "summary": " Autothrottle Anomaly During Go-Around",
+            "description": "after IAN approach, When go around is initiated below 50 feet,  "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-85 R1",
+            "callSign": "ALL",
+            "summary": "Autothrottle fails to disconnect during balked landing",
+            "description": "Autothrottle fails to disconnect when thrust levers are advanced during balked landing",
+            "operation": "If a go-around is initiated after touchdown but before thrust reverser selection, disengage autopilot/autothrottle, smoothly advance thrust levers to go around thrust. Verify speed brakes retract and autobrakes disarm. Maintain landing flap configuration and smoothly rotate towards to a 15 deg go around pitch attitude. once airborne push the TO/GA switch. continue go around procedure. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-87",
+            "callSign": "ALL",
+            "summary": "LNAV path deviation from published procedure path",
+            "description": "Potential for LNAV Path deviation from the published procedural path, especially with wayponts closer together than 10 NM. Or with turns of more than 120 degrees. Note that the radiuses of the connected turns are based on the speed calculated at the end of the connected turns. ",
+            "operation": "During preflight, if there are waypoints on a sid closer than 10 nm, and course changes greater than 120 degrees, insert a lower climb speed on the vnav clb page or waypoint constraint on legs page that complies with published speed restrictions. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-89",
+            "callSign": "ALL",
+            "summary": "Radio Altimeter Anomalies",
+            "description": "Autothrottle may increase thrust during flare when the Radio Altimeter is on a 'No computed data' Status. From the 2 radio altimeters, when one fails , the autothrottle  does not reduce thrust to idle but stays in speed mode. ",
+            "operation": "Guard Thrust levers and be prepared to disconnect autothrottles as needed. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-90 R1",
+            "callSign": "oo,ot,ou,ov,re,rf,sg,sh,si,tl,tk,tj,th,ti,tg,uo,up,uq,ur,xk,xl,xs, yc",
+            "summary": "Flight controls Eclectronics  software update",
+            "description": "Flight Control Electronics changes that might affect flight operations. ",
+            "operation": "Review FCOM"
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-93",
+            "callSign": "ALL",
+            "summary": "TCP inoperative and uncommanded Frequency Transfer",
+            "description": "TCPs become inoperative and show message SYSTEM NOT AVAILABLE ON THIS PANEL. Functions like vhf, hf, gpws, wxr, tcas/xpdr, atp function but cannot be controlled until at least one TCP is reset. ",
+            "operation": "IF one or two TCPs are inoperative, select each tcp off then on. If  tcp becomes inoperative again , leave it off. If three TCPs are inoperative, select all 3 tcps off, the select only the right TCP on. "
+        },
+        {
+            "aircraftType": "787",
+            "bulletinNo": "ETH-94 ",
+            "callSign": "ALL",
+            "summary": "PACK advisory or PACK L+R caution message can show brieflfy after takeoff or ldg with PCU Y201 Software installed",
+            "description": "Due to conservative logic used to detect operational status of PACKS, PACK advisory may show from liftoff till 1000 feet above airport elevation. ",
+            "operation": "It is acceptable to wait upto one minute after the PACK messages show before responding to ensure messages are not due to logic changes with the PCU Y201 software.. "
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-2R1",
+            "callSign": "NN,NO,NP,NQ,NR",
+            "summary": "Generator OFF Light ON After Engine Start With No EICAS Message",
+            "description": "During an engine start if a generator does not reach a minimum frequency of 380Hz the generator will not come on line and the generator OFF light will remain illuminated.",
+            "operation": "After engine start, flight crews should check that the generator OFF lights on the electrical panel are not illuminated. If a generator OFF light is illuminated, maintenance action is required."
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-9R1",
+            "callSign": "NN",
+            "summary": "777 Fuel Quantity Indicating System Fluctuations or Blanking Due to a Wiring Harness Problem",
+            "description": "777 operators report FUEL IMBALANCE EICAS advisory messages and/or the fuel quantity display blanking in flight due to fluctuating main and center tank fuel quantity indications. F",
+            "operation": "If the FUEL IMBALANCE EICAS advisory message occurs in flight, check fuel quantity readings to determine if the fuel quantity is fluctuating, or if a true imbalance or fuel leak exists"
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-10R2",
+            "callSign": "NQ,NR,QL,PU",
+            "summary": "Nuisance Visual and Aural Smoke Alarm Annunciations in Lavatories, Crew Rest Compartments and Other Cabin Compartments",
+            "description": "As a result of environmental regulations and parts obsolescence, ionization smoke detectors installed in the lavatories, crew rest compartments and other cabin compartments were replaced with photoelectric smoke detectors. ",
+            "operation": "If any of these indications occur, the cabin crew should follow standardprocedures for smoke detection. If no smoke source is present and the alarm occurred immediately after a power transfer, consider the alarm a nuisance occurrence"
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-14R1",
+            "callSign": "NP-NR",
+            "summary": "Nuisance PASSENGER ADDRESS EICAS Status Message",
+            "description": "The Speaker Drive Modules (SDM) check all cabin speaker output ports for open circuits and short circuits each time a chime (fasten seat belts, attendant calls, 10,000 feet, etc.) is sounded in the airplane. In the case of the Passenger Address",
+            "operation": "f the PASSENGER ADDRESS EICAS status message shows before dispatch, itmay be a nuisance message. Instruct the cabin crew to make sure all cabin speakers are working"
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-21R1",
+            "callSign": "NN-PX,QL",
+            "summary": "Delayed Release of Landing Gear Lever Lock",
+            "description": "After the initial retraction attempt, crews were able to retract the gear by raising the landing gear lever after a short delay or by accomplishing the Gear Lever Locked Down NNC.",
+            "operation": "If this condition occurs the flight crew should accomplish the Gear Lever Locked Down NNC:"
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-24R1",
+            "callSign": "old",
+            "summary": "System anomalies to be corrected with a future FMC software revision",
+            "description": "Steep Descent Path, Incorrect VNAV Sequencing, Autothrottle Advance When Engaging VNAV on Approac,",
+            "operation": "Review Fcom"
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-26R5",
+            "callSign": "old",
+            "summary": "Invalid Fuel Spar Valve Indication",
+            "description": "During flight test, following a power interrupt to the Left AC Bus the EICAS Fuel Synoptic page displayed the fuel spar valve as invalid (white circle) and the green fuel flow bars were replaced with white background lines.",
+            "operation": "Anytime there is a power interrupt to the left AC bus, the Fuel Synoptic can giveinvalid indications and should not be used for situational awareness."
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-28R3",
+            "callSign": "old",
+            "summary": "altimeter Setting While in VNAV",
+            "description": "Boeing has been made aware that overly aggressive pitch behavior may occur during altitude capture in VNAV when large changes to the barometric pressur reference are made",
+            "operation": "When in VNAV and capturing an altitude at or near the transition level or transition altitude, select FLCH, V/S or Altitude HOLD prior to making the barometric setting change"
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-29 R1",
+            "callSign": "old",
+            "summary": "Multi-Mode Receiver (MMR) ILS Frequency Disagreement",
+            "description": "The localizer and glideslope pointers on the PFD are accurate when the ILS frequency is amber with an amber horizontal line.",
+            "operation": "After selecting an ILS approach and when in reception range, verify the ILS is correctly tuned and identified. Identify the ILS after the on side PFD displays the amber frequency. Check for mo"
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-31 RI",
+            "callSign": "PS,PU,RH",
+            "summary": "Flight at Low Gross Weight",
+            "description": "There are supplementary procedures to follow when flying at gross weights below 154,221 kilograms.",
+            "operation": "Landing distances will be longer due to the higher VREF speed. For  Normallanding, increase the landing distance by 135 meters. For non-normal landing,increase the landing distance by 190 meters. These numbers are conservative and usable for all landing distance tables."
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-32 R2",
+            "callSign": "NN,NO,NP,NQ,NR,QL,PX,PY,SK,SL",
+            "summary": "Uncommanded Autothrottle Movement on the Ground.",
+            "description": "There have been reports of uncommanded autothrottle advancement during ground operations. The majority of reports have occurred during taxi. In",
+            "operation": "Boeing recommends the pilot flying keeps a hand on the thrust levers as much as possible during ground operations. "
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-33R2",
+            "callSign": "OLD",
+            "summary": "B777F - CARGO HEAT BULK EICAS Advisory Message",
+            "description": "A 777F experienced a CARGO HEAT BULK EICAS message which was accompanied with an ECS CARD R Status message.",
+            "operation": "If a CARGO HEAT BULK message is shown on a 777F before dispatch, the appropriate DDG and maintenance procedures should be followed. If thismessage occurs after dispatch, the message may be regarded as nuisance."
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-34 R3",
+            "callSign": "ALL",
+            "summary": "Transient TRANSPONDER EICAS advisory  essage when arming APP on the MCP",
+            "description": "During Boeing flight testing, the EICAS messages TRANSPONDER L and TCAS OFF momentarily showed when the approach mode was armed.",
+            "operation": "The subject condition is considered a transient"
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-35 R2",
+            "callSign": "OLD",
+            "summary": "Route Full Condition",
+            "description": "The 777 FMC has a limit of 150 waypoints that may be loaded into a route. If a flight crew attempts to insert more than 150 waypoints into the FMC, a",
+            "operation": "During all phases of flight, flight crew should ensure a maximum of 30 LEGS pages."
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-37 R2",
+            "callSign": "old",
+            "summary": "VNAV Descent on Approach Without a Valid Descent Path",
+            "description": "Boeing has received a report of a VNAV descent on a non-precision approach without a VNAV path after being vectored by ATC.",
+            "operation": "Boeing has received a report of a VNAV descent on a non-precision approach without a VNAV path after being vectored by ATC."
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-38 R1",
+            "callSign": "old",
+            "summary": "Uncommanded Turns When LNAV is in Use",
+            "description": "Boeing has received several reports of uncommanded turns when LNAV is inuse.",
+            "operation": "Avoid executing lateral OFFSET when approaching an active waypoint:  Avoid entry of a vertical or lateral flight planning change when approaching an active waypoint.•"
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-43",
+            "callSign": "ALL",
+            "summary": "Fuel Flow Blanking with GE90-100 Series Engines",
+            "description": "fuel flow indications blanking on GE90-100 seriesengines at or near minimum idle during descent",
+            "operation": "no flight crew action is required"
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-45 R1",
+            "callSign": "old",
+            "summary": "Error in Airplane Fuel Quantity Indications",
+            "description": "All fuel quantity indications (EICAS, Fuel Synoptic, etc.) can show a greater fuelquantity than the actual fuel quantity.",
+            "operation": "efore starting the engines, use the final fuel load documentation to verify that the initial airplane fuel, plus the fuel added for the flight, is the same as the total fuel quantity on EICAS."
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-45 R1",
+            "callSign": "ALL",
+            "summary": "Erroneous Autopilot Flight Director System (AFDS) Guidance whenInstrument Landing System (ILS) Signal Interference Occurs",
+            "description": "veral reports of unexpected pitch guidance when capturing or tracking the glideslope during an instrument landing system (ILS) approach disables one element of the automatic autothrottle disconnect logic",
+            "operation": "While on an ILS approach, monitor localizer and glideslope raw data and call out criteria to continue the approach"
+        },
+        {
+            "aircraftType": "777",
+            "bulletinNo": "ETH-46",
+            "callSign": "ALL",
+            "summary": "Autothrottle fails to disconnect during balked landing",
+            "description": "Autothrottle fails to disconnect during balked landing",
+            "operation": "during balked landing, disengage autopilot and autothrottle advancing thrust lever to go around trust, verify speedbrakes retract and autobrakes disarm, maintain landin gflap configuration and rotate 15 degrees ga attitude. Airborne, push toga switch, continue with missed approach procedures. "
+        }
+    ]
+}
