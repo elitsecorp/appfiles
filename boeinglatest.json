@@ -415,13 +415,21 @@
             "description": "veral reports of unexpected pitch guidance when capturing or tracking the glideslope during an instrument landing system (ILS) approach disables one element of the automatic autothrottle disconnect logic",
             "operation": "While on an ILS approach, monitor localizer and glideslope raw data and call out criteria to continue the approach"
         },
-        {
-            "aircraftType": "777",
-            "bulletinNo": "ETH-46",
-            "callSign": "ALL",
-            "summary": "Autothrottle fails to disconnect during balked landing",
-            "description": "Autothrottle fails to disconnect during balked landing",
-            "operation": "during balked landing, disengage autopilot and autothrottle advancing thrust lever to go around trust, verify speedbrakes retract and autobrakes disarm, maintain landin gflap configuration and rotate 15 degrees ga attitude. Airborne, push toga switch, continue with missed approach procedures. "
-        }
+      {
+        "aircraftType": "777",
+        "bulletinNo": "ETH-46",
+        "callSign": "ALL",
+        "summary": "Autothrottle fails to disconnect during balked landing",
+        "description": "Autothrottle fails to disconnect during balked landing",
+        "operation": "during balked landing, disengage autopilot and autothrottle advancing thrust lever to go around trust, verify speedbrakes retract and autobrakes disarm, maintain landin gflap configuration and rotate 15 degrees ga attitude. Airborne, push toga switch, continue with missed approach procedures. "
+      },
+      {
+        "aircraftType": "777",
+        "bulletinNo": "ETH-477",
+        "callSign": "ALL",
+        "summary": "this is a test bulletin",
+        "description": "Autothrottle fails to disconnect during balked landing",
+        "operation": "during balked landing, disengage autopilot and autothrottle advancing thrust lever to go around trust, verify speedbrakes retract and autobrakes disarm, maintain landin gflap configuration and rotate 15 degrees ga attitude. Airborne, push toga switch, continue with missed approach procedures. "
+      }
     ]
 }
