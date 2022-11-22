@@ -1,0 +1,5 @@
+{
+  "ad_link": "www.investin.et",
+  "show_ad_on_startup":"1",
+  
+}
