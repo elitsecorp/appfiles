@@ -2,5 +2,6 @@
   "ad_url": "www.ethiopianairlines.com",
   "ad_type": "url_sho",
   "requires_approval": "true",
+  "admin_pass": "ethiopianair",
   "show_ad_on_startup":"0"
 }
