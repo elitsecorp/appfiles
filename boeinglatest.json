@@ -423,13 +423,223 @@
         "description": "Autothrottle fails to disconnect during balked landing",
         "operation": "during balked landing, disengage autopilot and autothrottle advancing thrust lever to go around trust, verify speedbrakes retract and autobrakes disarm, maintain landin gflap configuration and rotate 15 degrees ga attitude. Airborne, push toga switch, continue with missed approach procedures. "
       },
-      {
-        "aircraftType": "777",
-        "bulletinNo": "ETH-477",
-        "callSign": "ALL",
-        "summary": "this is a test bulletin",
-        "description": "Autothrottle fails to disconnect during balked landing",
-        "operation": "during balked landing, disengage autopilot and autothrottle advancing thrust lever to go around trust, verify speedbrakes retract and autobrakes disarm, maintain landin gflap configuration and rotate 15 degrees ga attitude. Airborne, push toga switch, continue with missed approach procedures. "
-      }
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-1(P2)",
+          "callSign": "all",
+          "summary": "Cabin Pressurization Panel Issues",
+          "description": "The cabin pressurization panel experiences intermittent blanking or dimming, which compromises the visibility of critical cabin pressure information during various phases of flight. This can lead to misinterpretation of pressurization data and potential safety concerns.",
+          "operation": "Reset the pressurization panel by cycling its power, perform diagnostic checks, and if the anomaly persists, initiate maintenance procedures to repair or replace the faulty display components."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-2(P2)",
+          "callSign": "all",
+          "summary": "FMC Constraint Altitude on STAR",
+          "description": "When selecting an alternate approach on a Standard Terminal Arrival Route (STAR) with a common waypoint, the FMC displays an incorrect constraint altitude. This miscalculation could lead to altitude deviations during the approach.",
+          "operation": "Manually input the correct altitude into the FMC or recalibrate the FMC constraint function to ensure accurate altitude guidance during STAR approaches."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-3(P2)",
+          "callSign": "all",
+          "summary": "VNAV INVALID-PERF Scratchpad Message",
+          "description": "A VNAV invalid performance message appears on the scratchpad, disrupting the optimal flight profile execution. This issue interferes with the normal operation of the vertical navigation system.",
+          "operation": "Clear the invalid performance data from the scratchpad and reset the VNAV system. Verify performance inputs and update the system software if necessary."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-4(P2)",
+          "callSign": "all",
+          "summary": "DFDR Amber OFF Light Illumination",
+          "description": "After engine start, the Digital Flight Data Recorder (DFDR) briefly illuminates an amber OFF light. This indicates a potential issue with DFDR initialization which, if persistent, could affect the proper recording of flight data.",
+          "operation": "Check the DFDR system’s initialization procedures and verify that all parameters are within the normal operating range. If the amber light persists, conduct further system checks and consult maintenance."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-5(P2)",
+          "callSign": "all",
+          "summary": "Bleed System Oscillations",
+          "description": "Oscillations in the bleed air system have been observed, affecting engine performance and potentially causing fluctuations in engine thrust. These oscillations could lead to operational inconsistencies during flight.",
+          "operation": "Use onboard diagnostics to assess the bleed system, adjust system parameters as required, and perform maintenance if persistent oscillations are detected."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-6(P2)",
+          "callSign": "all",
+          "summary": "Approach Data Block Anomaly with GLS Channel Selected",
+          "description": "An anomaly occurs in the approach data block when the GLS channel is selected, resulting in inconsistent approach data being displayed. This can impact the guidance provided during the approach phase.",
+          "operation": "Reset the approach data block configuration, verify the integrity of the GLS channel data, and update the software settings as per the revised procedure."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-7(P2)",
+          "callSign": "all",
+          "summary": "START VALVE OPEN Alert Blinking",
+          "description": "During the starter cutout phase, a blinking alert indicates that the START VALVE remains open. This condition could lead to abnormal engine start behavior.",
+          "operation": "Perform a system check on the START VALVE, verify its proper operation, and if necessary, adjust or replace the valve to ensure it closes at the correct time during engine start."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-8(P2)",
+          "callSign": "all",
+          "summary": "Engine Start with High Outside Air Temperature",
+          "description": "Engines may start when the outside air temperature (OAT) is at or above 40°C/104°F, which can affect engine performance and may lead to uncommanded engine behavior during start-up.",
+          "operation": "Monitor engine start closely in high OAT conditions, adjust start parameters if necessary, and perform additional checks to ensure engines stabilize after start."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-9(P2)",
+          "callSign": "all",
+          "summary": "Integrated ADIRU and ANR Mode Anomaly",
+          "description": "Airplanes equipped with the integrated ADIRU (I-ADIRU) experience anomalies in switching to Automatic Navigation Realign (ANR) mode. This affects the accuracy of the navigation system during critical flight phases.",
+          "operation": "Recalibrate the integrated ADIRU system and update the ANR mode software. Perform in-flight verification to ensure the navigation system realigns correctly."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-10(P2)",
+          "callSign": "all",
+          "summary": "Predictive Windshear System Anomaly",
+          "description": "The predictive windshear system exhibits anomalies that can result in inaccurate or delayed windshear warnings. This discrepancy may affect flight crew response during turbulent conditions.",
+          "operation": "Update the predictive windshear software parameters and test the system under simulated conditions to verify the accuracy of the alerts."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-11(P2)",
+          "callSign": "all",
+          "summary": "Lateral Path Exceedance on Course Reversal",
+          "description": "During course reversal maneuvers on approach, the aircraft sometimes exceeds the lateral path limits due to improper FMC calculations. This could lead to unstable approaches.",
+          "operation": "Manually monitor and adjust the heading during course reversal; update the FMC software if necessary to prevent lateral path exceedance."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-12(P2)",
+          "callSign": "all",
+          "summary": "EEC Pressure Sensors Freezing",
+          "description": "The Electronic Engine Control (EEC) system’s pressure sensors are freezing under certain conditions, leading to erroneous engine control signals and potential performance issues.",
+          "operation": "Replace or recalibrate the affected pressure sensors and ensure that the EEC system is updated with the latest firmware to prevent sensor freeze."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-13(P2)",
+          "callSign": "all",
+          "summary": "Elevator Jam Landing Assist Switch",
+          "description": "A malfunction in the elevator jam landing assist switch can prevent proper landing configuration, potentially compromising the landing performance of the aircraft.",
+          "operation": "Inspect the elevator jam landing assist switch, perform necessary repairs or replacement, and conduct functional tests to confirm proper operation."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-14(P2)",
+          "callSign": "all",
+          "summary": "Dual Loss of GPS Signal",
+          "description": "Airplanes equipped with Honeywell IMMR 69002600-0101 and certain software versions experience a dual loss of GPS signals. This can significantly degrade navigation performance.",
+          "operation": "Update the GPS receiver firmware and verify that all backup navigation systems are operational. Monitor GPS signal integrity during flight."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-15(P2)",
+          "callSign": "all",
+          "summary": "Localizer Overshoot on LNAV Interception",
+          "description": "When using LNAV mode to intercept the localizer, the aircraft may overshoot the localizer course due to delayed or inaccurate guidance inputs.",
+          "operation": "Adjust LNAV settings to tighten guidance tolerances and monitor localizer capture closely during interception."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-16(P2)",
+          "callSign": "all",
+          "summary": "Radio Altimeter Anomalies Due to 5G Interference",
+          "description": "Radio altimeters are exhibiting anomalies attributed to 5G C-Band wireless broadband interference, resulting in incorrect altitude readings during critical phases of flight.",
+          "operation": "Shield or recalibrate the radio altimeter system, and update interference mitigation protocols as recommended by the manufacturer."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-17(P2)",
+          "callSign": "all",
+          "summary": "DATALINK FULL Status Message",
+          "description": "The datalink system displays a 'FULL' status message unexpectedly, which may hinder the proper transmission of CPDLC messages and other data communications.",
+          "operation": "Clear the datalink status, verify system parameters, and update datalink software to ensure continuous data flow."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-18(P2)",
+          "callSign": "all",
+          "summary": "Dual FMC Resets During CPDLC Operations",
+          "description": "Airplanes equipped with FMC U14/U14.1 and FANS 1/2 experience unexpected dual resets during CPDLC operations, interrupting flight management functionality.",
+          "operation": "Reset the FMC system, update CPDLC software, and monitor for further resets. Follow revised CPDLC operating procedures if the issue persists."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-20(P2)",
+          "callSign": "all",
+          "summary": "Unwanted GLIDESLOPE Advisory",
+          "description": "The system issues an unwanted glideslope advisory during approaches on airplanes equipped with the IAN option, which can confuse flight crews and affect approach stability.",
+          "operation": "Adjust the glideslope advisory parameters in the FMC and verify the correction during test flights."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-21(P2)",
+          "callSign": "all",
+          "summary": "R1 Engine Anti-Ice Operation Issue",
+          "description": "A malfunction in the R1 engine anti-ice system can lead to improper activation, potentially affecting engine performance and safety during icy conditions.",
+          "operation": "Recalibrate the anti-ice system, replace any faulty sensors, and validate proper operation during engine run-up tests."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-23(P2)",
+          "callSign": "all",
+          "summary": "Wing Anti-Ice Valve Light Nuisance Illumination",
+          "description": "The wing anti-ice valve lights illuminate spuriously, even when the anti-ice system is operating normally, causing unnecessary crew distraction.",
+          "operation": "Review and adjust the anti-ice valve light circuit and update the cockpit annunciator settings to prevent nuisance illumination."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-24(P2)",
+          "callSign": "all",
+          "summary": "Cowl Valve Light Nuisance Illumination",
+          "description": "The cowl valve lights intermittently illuminate without an actual fault, potentially misleading the crew about system status.",
+          "operation": "Inspect the cowl valve light wiring and control circuitry, and recalibrate the annunciator to ensure accurate indication."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-25(P2)",
+          "callSign": "all",
+          "summary": "Dual FMC Resets After Conditional Waypoint",
+          "description": "Following a conditional waypoint (VECTOR) entry, some airplanes experience dual FMC resets that disrupt flight planning and navigation.",
+          "operation": "Update the FMC software to handle conditional waypoint entries more robustly and monitor the system for any further resets during flight."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-26(P2)",
+          "callSign": "all",
+          "summary": "Unexpected Roll Command during RNP Approaches",
+          "description": "When operating with an RNP of 0.3 or below, an unexpected roll command may be generated, affecting lateral stability during the approach phase.",
+          "operation": "Recalibrate the roll control parameters within the flight control system and conduct validation tests during RNP approaches."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-27(P2)",
+          "callSign": "all",
+          "summary": "Severe Engine Damage Alert",
+          "description": "A new alert warns crews of conditions that could lead to severe engine damage by detecting sensor anomalies and abnormal engine parameters that precede damage.",
+          "operation": "Monitor engine parameters closely, follow the updated abnormal engine procedures, and perform an immediate shutdown and inspection if the alert is triggered."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-28(P2)",
+          "callSign": "all",
+          "summary": "Overrun Warning System Restriction",
+          "description": "If a landing runway is not selected or available in the FMC, the Overrun Warning (ORW) system may restrict normal operation, leading to delayed warnings and potential runway overruns.",
+          "operation": "Ensure a landing runway is correctly selected in the FMC and adjust the ORW system parameters to remove unnecessary restrictions."
+        },
+        {
+          "aircraftType": "737MAX",
+          "bulletinNo": "ETH-29(P2)",
+          "callSign": "all",
+          "summary": "Cockpit Voice Recorder Test Procedure Update",
+          "description": "An update to the cockpit voice recorder (CVR) test procedure is required to prevent accidental erasure of recorded data during testing, ensuring accurate data retention.",
+          "operation": "Follow the updated CVR test procedure which limits test duration and confirms proper recorder operation without erasing critical data."
+        }
+      
+
     ]
 }
