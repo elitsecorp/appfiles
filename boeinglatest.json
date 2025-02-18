@@ -427,7 +427,7 @@
           "aircraftType": "737MAX",
           "bulletinNo": "ETH-1(P2)",
           "callSign": "all",
-          "summary": "Cabin Pressurization Panel Issues",
+          "summary": "(B)Cabin Pressurization Panel Issues",
           "description": "The cabin pressurization panel experiences intermittent blanking or dimming, which compromises the visibility of critical cabin pressure information during various phases of flight. This can lead to misinterpretation of pressurization data and potential safety concerns.",
           "operation": "On ground, do not take off, in flight if panel does not self recover avoid amendments to flight alt and land alt. If change to these is required, for flight, don't do anything. For landing alt, manually control cabin altitude when below 1000 ft msl or 3000 above airport elevation"
         },
@@ -483,17 +483,17 @@
           "aircraftType": "737MAX",
           "bulletinNo": "ETH-8(P2)",
           "callSign": "all",
-          "summary": "Engine Start with High Outside Air Temperature",
+          "summary": "(Hot Wxr)Engine Start with High Outside Air Temperature",
           "description": "Engines may start when the outside air temperature (OAT) is at or above 40°C/104°F, which can affect engine performance and may lead to uncommanded engine behavior during start-up.",
-          "operation": "Monitor engine start closely in high OAT conditions, adjust start parameters if necessary, and perform additional checks to ensure engines stabilize after start."
+          "operation": "Monitor engine start closely in high OAT conditions, adjust start parameters if necessary.Turn off Engine pumps before Engine start. set start lever to idle at 20 pc n2."
         },
         {
           "aircraftType": "737MAX",
           "bulletinNo": "ETH-9(P2)",
           "callSign": "all",
-          "summary": "Integrated ADIRU and ANR Mode Anomaly",
+          "summary": "(B)Integrated ADIRU and ANR Mode Anomaly",
           "description": "Airplanes equipped with the integrated ADIRU (I-ADIRU) experience anomalies in switching to Automatic Navigation Realign (ANR) mode. This affects the accuracy of the navigation system during critical flight phases.",
-          "operation": "Recalibrate the integrated ADIRU system and update the ANR mode software. Perform in-flight verification to ensure the navigation system realigns correctly."
+          "operation": "Do full Alignment before each flight, or do the fast realignment supplementary procedure. If you don't you might notice effects in 7.5 to 15 mins"
         },
         {
           "aircraftType": "737MAX",
@@ -515,9 +515,9 @@
           "aircraftType": "737MAX",
           "bulletinNo": "ETH-12(P2)",
           "callSign": "all",
-          "summary": "EEC Pressure Sensors Freezing",
+          "summary": "(B)EEC Pressure Sensors Freezing",
           "description": "The Electronic Engine Control (EEC) system’s pressure sensors are freezing under certain conditions, leading to erroneous engine control signals and potential performance issues.",
-          "operation": "Replace or recalibrate the affected pressure sensors and ensure that the EEC system is updated with the latest firmware to prevent sensor freeze."
+          "operation": "In the event that N1 Oscillations occur, do the engine limit or surge or stall nnc"
         },
         {
           "aircraftType": "737MAX",
@@ -525,7 +525,7 @@
           "callSign": "all",
           "summary": "Elevator Jam Landing Assist Switch",
           "description": "A malfunction in the elevator jam landing assist switch can prevent proper landing configuration, potentially compromising the landing performance of the aircraft.",
-          "operation": "Inspect the elevator jam landing assist switch, perform necessary repairs or replacement, and conduct functional tests to confirm proper operation."
+          "operation": "Ensure the JAM Assist guard is closed"
         },
         {
           "aircraftType": "737MAX",
@@ -533,7 +533,7 @@
           "callSign": "all",
           "summary": "Dual Loss of GPS Signal",
           "description": "Airplanes equipped with Honeywell IMMR 69002600-0101 and certain software versions experience a dual loss of GPS signals. This can significantly degrade navigation performance.",
-          "operation": "Update the GPS receiver firmware and verify that all backup navigation systems are operational. Monitor GPS signal integrity during flight."
+          "operation": "On the ground, don't take off. In flight only ground based navaids are available. Terrain alerts are not available. Verify DME Update is on"
         },
         {
           "aircraftType": "737MAX",
