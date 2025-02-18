@@ -429,7 +429,7 @@
           "callSign": "all",
           "summary": "Cabin Pressurization Panel Issues",
           "description": "The cabin pressurization panel experiences intermittent blanking or dimming, which compromises the visibility of critical cabin pressure information during various phases of flight. This can lead to misinterpretation of pressurization data and potential safety concerns.",
-          "operation": "Reset the pressurization panel by cycling its power, perform diagnostic checks, and if the anomaly persists, initiate maintenance procedures to repair or replace the faulty display components."
+          "operation": "On ground, do not take off, in flight if panel does not self recover avoid amendments to flight alt and land alt. If change to these is required, for flight, don't do anything. For landing alt, manually control cabin altitude when below 1000 ft msl or 3000 above airport elevation"
         },
         {
           "aircraftType": "737MAX",
