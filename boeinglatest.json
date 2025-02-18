@@ -451,9 +451,9 @@
           "aircraftType": "737MAX",
           "bulletinNo": "ETH-4(P2)",
           "callSign": "all",
-          "summary": "DFDR Amber OFF Light Illumination",
+          "summary": "(b)DFDR Amber OFF Light Illumination",
           "description": "After engine start, the Digital Flight Data Recorder (DFDR) briefly illuminates an amber OFF light. This indicates a potential issue with DFDR initialization which, if persistent, could affect the proper recording of flight data.",
-          "operation": "Check the DFDR system’s initialization procedures and verify that all parameters are within the normal operating range. If the amber light persists, conduct further system checks and consult maintenance."
+          "operation": "No crew action is needed provided no system annunciators remain illuminated after recall check in the before taxi procedure."
         },
         {
           "aircraftType": "737MAX",
@@ -469,7 +469,7 @@
           "callSign": "all",
           "summary": "Approach Data Block Anomaly with GLS Channel Selected",
           "description": "An anomaly occurs in the approach data block when the GLS channel is selected, resulting in inconsistent approach data being displayed. This can impact the guidance provided during the approach phase.",
-          "operation": "Reset the approach data block configuration, verify the integrity of the GLS channel data, and update the software settings as per the revised procedure."
+          "operation": "don't select gls until completing descent procedure. "
         },
         {
           "aircraftType": "737MAX",
@@ -477,13 +477,13 @@
           "callSign": "all",
           "summary": "START VALVE OPEN Alert Blinking",
           "description": "During the starter cutout phase, a blinking alert indicates that the START VALVE remains open. This condition could lead to abnormal engine start behavior.",
-          "operation": "Perform a system check on the START VALVE, verify its proper operation, and if necessary, adjust or replace the valve to ensure it closes at the correct time during engine start."
+          "operation": "If start valve open alert continues to blink for more than 10 seconds, then illuminates steady, then do the nnc. Otherwise continue normal operation"
         },
         {
           "aircraftType": "737MAX",
           "bulletinNo": "ETH-8(P2)",
           "callSign": "all",
-          "summary": "(Hot Wxr)Engine Start with High Outside Air Temperature",
+          "summary": "(Hot Wxr) Engine Start with High Outside Air Temperature",
           "description": "Engines may start when the outside air temperature (OAT) is at or above 40°C/104°F, which can affect engine performance and may lead to uncommanded engine behavior during start-up.",
           "operation": "Monitor engine start closely in high OAT conditions, adjust start parameters if necessary.Turn off Engine pumps before Engine start. set start lever to idle at 20 pc n2."
         },
@@ -501,7 +501,7 @@
           "callSign": "all",
           "summary": "Predictive Windshear System Anomaly",
           "description": "The predictive windshear system exhibits anomalies that can result in inaccurate or delayed windshear warnings. This discrepancy may affect flight crew response during turbulent conditions.",
-          "operation": "Update the predictive windshear software parameters and test the system under simulated conditions to verify the accuracy of the alerts."
+          "operation": "for windshear, do the windshear escape maneuver."
         },
         {
           "aircraftType": "737MAX",
@@ -509,7 +509,7 @@
           "callSign": "all",
           "summary": "Lateral Path Exceedance on Course Reversal",
           "description": "During course reversal maneuvers on approach, the aircraft sometimes exceeds the lateral path limits due to improper FMC calculations. This could lead to unstable approaches.",
-          "operation": "Manually monitor and adjust the heading during course reversal; update the FMC software if necessary to prevent lateral path exceedance."
+          "operation": "Manually monitor and adjust the heading during course reversal"
         },
         {
           "aircraftType": "737MAX",
@@ -541,7 +541,7 @@
           "callSign": "all",
           "summary": "Localizer Overshoot on LNAV Interception",
           "description": "When using LNAV mode to intercept the localizer, the aircraft may overshoot the localizer course due to delayed or inaccurate guidance inputs.",
-          "operation": "Adjust LNAV settings to tighten guidance tolerances and monitor localizer capture closely during interception."
+          "operation": "monitor LNAV and interfere using hdg sel if required"
         },
         {
           "aircraftType": "737MAX",
@@ -587,7 +587,7 @@
           "aircraftType": "737MAX",
           "bulletinNo": "ETH-23(P2)",
           "callSign": "all",
-          "summary": "Wing Anti-Ice Valve Light Nuisance Illumination",
+          "summary": "(B)Wing Anti-Ice Valve Light Nuisance Illumination",
           "description": "The wing anti-ice valve lights illuminate spuriously, even when the anti-ice system is operating normally, causing unnecessary crew distraction.",
           "operation": "If above fl 230, wait 20 seconds after illuminations, if they continue illuminating ( the L valve and R valve) do the wing anti-ice L/r nnc.Below fl 230 just do the NNC"
         },
