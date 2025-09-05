@@ -647,6 +647,46 @@
         "description": "Radio frequency interference is causing both known and latent threat. GPS data unreliable nnc was created, and supplementary procedure was added",
         "operation": "Follow the updated SP 11 Inhibiting gps updating, SP11 Manual alignment, QRH 1.5 gpws warning, qrh gps data unrelaiable nnc."
       },
+         {
+          "aircraftType": "737",
+          "bulletinNo": "(b)ETH-2(P2)",
+          "callSign": "all",
+          "summary": "Inflight Elevator Tab Vibration",
+          "description": "Unwanted elevator tab vibration may occur due to the failure of aft attached lugs",
+          "operation": "if vibration is suspected due to elevator tab, reduce airspeed until vibration stops. don't use speed brakes. limit bank angle to 15 degrees until below 20000. consider landing at nearest suitable airport."
+        },
+         {
+          "aircraftType": "737",
+          "bulletinNo": "ETH-3(P2)",
+          "callSign": "all",
+          "summary": "Center tank fuel system changes",
+          "description": "The master caution logic has been revised so that master caution lights and fuel system annunciator illuminate when there is low pressure. ",
+          "operation": "Refer to fcom normal procedures for fuel usage before start, takeoff, climb, cruise and descent."
+        },
+               {
+          "aircraftType": "737",
+          "bulletinNo": "(B)ETH-4(P2)",
+          "callSign": "all",
+          "summary": "Reduced engine response times",
+          "description": "Slow engine acceleration which have resulted in airspeed lossses. This is due to reduced engine acceleration and deceleration rates. ",
+          "operation": "Use autopilot and autothrottle, at cruise manually select CLB /CONT, manually guard thrust levers to maintain minimmum 60% n1, consier speedbrakes for sudden increases in airspeed"
+        },
+        {
+          "aircraftType": "737",
+          "bulletinNo": "(B)ETH-6(P2)",
+          "callSign": "all",
+          "summary": "Hand microphone use with Flight deck pc power outlet",
+          "description": "Interference may occur",
+          "operation": "don't use mic while plugged in"
+        },
+               {
+          "aircraftType": "737",
+          "bulletinNo": "(b)ETH-9(P2)",
+          "callSign": "all",
+          "summary": "Nusiance stall warning stick shaker events",
+          "description": "In these scenarios 1. moderate to severe turbulence at max operating altitude, maneuvering during flap retraction from flaps 1 to up, maneuveiring at v2 speeds, stick shaker may occur",
+          "operation": "for scenario 1, do nothing. for scenario 2, limit bank angle to 15, for third scncenaroo, don't turn wing anti ice on until v2 +15"
+        },
        {
           "aircraftType": "737",
           "bulletinNo": "ETH-1(P2)",
@@ -717,7 +757,7 @@
           "callSign": "all",
           "summary": "Predictive Windshear System Anomaly",
           "description": "The predictive windshear system displays anomalies that cause inaccurate or delayed warnings, which could affect timely crew response during turbulence.",
-          "operation": "Update the windshear system’s software parameters and test under simulated conditions to ensure accurate alerts."
+          "operation": "perform windshear recovery"
         },
         {
           "aircraftType": "737",
@@ -725,7 +765,7 @@
           "callSign": "all",
           "summary": "NPS Scales Mask ILS/GLS Fail Flags",
           "description": "Failures in the ILS/GLS components may be masked by the Navigation Performance Scales, preventing proper display of localizer and glideslope fail flags.",
-          "operation": "Monitor the affected displays and follow the recommended procedures for recognizing masked failure indications."
+          "operation": "Monitor the affected displays and follow the recommended procedures for recognizing masked failure indications. if failure of ils is confirmed, select an approach other than ILS"
         },
         {
           "aircraftType": "737",
@@ -757,15 +797,15 @@
           "callSign": "all",
           "summary": "ADIRU Position Drift and Ground Speed Errors",
           "description": "Airplanes with the specified ADIRU experience position drift, resulting in inaccurate ground speed and navigation errors.",
-          "operation": "Perform a system check and recalibrate or update the ADIRU as necessary."
+          "operation": "perform full alignment on first day flight, if continuous ac power is not available, within 18 hrs of last alignment. "
         },
         {
           "aircraftType": "737",
-          "bulletinNo": "ETH-24(P2)",
+          "bulletinNo": "(L)ETH-24(P2)",
           "callSign": "all",
           "summary": "Descent Below Glide Slope During Approach",
-          "description": "Some 737NG airplanes descend below the glide slope during approach due to FCC software issues, potentially affecting landing performance.",
-          "operation": "Monitor descent profiles closely and adjust approach procedures to maintain proper glide slope."
+          "description": "Some 737NG airplanes descend below the glide slope during approach due to FCC software issues(especially when intercepting from above), potentially affecting landing performance.",
+          "operation": "capture glideslope prior to FAF, establish landing conf and set mcp altitude no lower than 1000Feet Afe, select vs to max -`500 to capture gs by 1000 ft"
         },
         {
           "aircraftType": "737",
@@ -773,23 +813,23 @@
           "callSign": "all",
           "summary": "Arming VNAV on the Ground (FMC Update U10.7)",
           "description": "This bulletin addresses procedures for arming VNAV on the ground, ensuring the FMC is updated to prevent anomalies during VNAV operation.",
-          "operation": "Follow the updated VNAV arming procedure to ensure correct FMC operation on the ground."
+          "operation": "if below software version 10.7 do not arm vnav"
         },
         {
           "aircraftType": "737",
           "bulletinNo": "ETH-26(P2)",
           "callSign": "all",
           "summary": "Unintentional FMC Engine Out Mode Initiation",
-          "description": "The FMC may unintentionally enter the engine out mode (ENG OUT) when using update U10.7, disrupting normal flight management.",
-          "operation": "Monitor FMC behavior closely; if unintended mode initiation occurs, reset the FMC and follow the revised CPDLC procedures."
+          "description": "The FMC may unintentionally enter the engine out mode (ENG OUT) when using update U10.7, disrupting normal flight management. Esp during seto, with split trust levers and > 30 kts",
+          "operation": "Monitor FMC behavior closely; if unintended mode initiation occurs, reset the FMC , or select all eng on lsk 4l."
         },
         {
           "aircraftType": "737",
-          "bulletinNo": "ETH-27(P2)",
+          "bulletinNo": "(B)ETH-27(P2)",
           "callSign": "all",
           "summary": "FMC Lockup with SID Selection on Missed Approach",
           "description": "When a Standard Instrument Departure is selected during a missed approach, the FMC may lock up, affecting flight management.",
-          "operation": "Follow the prescribed reset procedures for the FMC and update the system as recommended."
+          "operation": "do not select sid whiile flying lnav missed approach procedure. "
         },
         {
           "aircraftType": "737",
@@ -805,7 +845,7 @@
           "callSign": "all",
           "summary": "Cabin Altitude Warning Indications and Procedures Update",
           "description": "Updated procedures and indications for cabin altitude warnings have been issued to ensure accurate crew briefing and response.",
-          "operation": "Review the updated cabin altitude warning procedures and ensure all crew members are briefed on the changes."
+          "operation": "Review the updated cabin altitude warning procedures and ensure all crew members are briefed on the changes. nothing in our case"
         },
         {
           "aircraftType": "737",
@@ -813,7 +853,7 @@
           "callSign": "all",
           "summary": "GPWS Minimums Voice Callout Anomaly",
           "description": "An anomaly in the GPWS minimums voice callout may result in premature or delayed warnings during approach.",
-          "operation": "Avoid rotating the Minimums Reference Selector below 1000 feet AGL and monitor GPWS callouts carefully."
+          "operation": "Avoid rotating the Minimums Reference Selector from baro to radio below 1000 feet AGL and monitor GPWS callouts carefully."
         },
         {
           "aircraftType": "737",
@@ -821,15 +861,15 @@
           "callSign": "all",
           "summary": "Look-Ahead Terrain Alerting Display Anomalies",
           "description": "Display anomalies in the GPWS look-ahead system result in inaccurate terrain alerting, potentially affecting approach decisions.",
-          "operation": "Verify terrain data prior to final approach and use backup procedures if discrepancies are noted."
+          "operation": "Terrain data display is intednded to serve as situational awareness tool only. do the qrh maneuver. "
         },
         {
           "aircraftType": "737",
           "bulletinNo": "ETH-32(P2)",
           "callSign": "all",
           "summary": "Inadvertent RTO Autobraking During Landing",
-          "description": "The autobrake system may activate inadvertently during landing rollout due to over-rotation of the autobrake select switch.",
-          "operation": "Disarm the autobrake system manually before landing and verify proper brake operation."
+          "description": "The autobrake RTO system may activate inadvertently during landing rollout due to over-rotation of the autobrake select switch into the RTO",
+          "operation": "Disarm the autobrake system manually (using brakes) after landing and verify proper brake operation."
         },
         {
           "aircraftType": "737",
@@ -837,15 +877,15 @@
           "callSign": "all",
           "summary": "Inflight Start EGT Display Anomaly",
           "description": "During inflight engine starts, the Exhaust Gas Temperature (EGT) display may not function correctly, risking exceedance of start limits.",
-          "operation": "Monitor EGT readings during inflight starts and ensure they remain within safe limits."
+          "operation": "Monitor EGT readings during inflight starts and ensure they remain within 725 dc limits."
         },
         {
           "aircraftType": "737",
           "bulletinNo": "ETH-34(P2)",
           "callSign": "all",
           "summary": "Nuisance PWS Fail Annunciation",
-          "description": "The Primary Warning System (PWS) may fail to annunciated correctly, potentially masking important warnings.",
-          "operation": "Follow the prescribed checklist for verifying PWS functionality and use backup alerts as necessary."
+          "description": "The Primary Warning System (PWS) annunciatets for 30 seconds if wxr not selected at electrical power up, and engines are advanced for takeoff and indicated airspeed is increasing",
+          "operation": "select weather radar system on prior to takeoff. Consider any subsequent pws fail annunciation or windshear alert as valid."
         },
         {
           "aircraftType": "737",
@@ -853,7 +893,7 @@
           "callSign": "all",
           "summary": "PSEU Fault Indications",
           "description": "Fault indications from the Primary System Electronics Unit (PSEU) appear erroneously, which could mislead crew about system status.",
-          "operation": "Review fault indications, update software if needed, and adhere to contingency procedures."
+          "operation": "If experiencing inappropriate landing configuration warneing, consider a return to landing as soon as flight conditions allow. "
         },
         {
           "aircraftType": "737",
@@ -861,7 +901,7 @@
           "callSign": "all",
           "summary": "Lateral Path Exceedance on Approach with Course Reversal",
           "description": "During course reversal maneuvers on approach, the aircraft sometimes exceeds lateral path limits due to improper FMC calculations.",
-          "operation": "Manually monitor heading and adjust as necessary; update FMC software to improve lateral guidance."
+          "operation": "Manually monitor heading and adjust as necessary; "
         },
         {
           "aircraftType": "737",
@@ -869,7 +909,7 @@
           "callSign": "all",
           "summary": "All Six Display Units Blanking",
           "description": "In configurations with CDS BP15 and FMC U12 or newer installed, all six display units may blank unexpectedly, causing temporary loss of critical flight information.",
-          "operation": "Reset the display systems and verify that all units are functioning normally; consult maintenance if the issue persists."
+          "operation": "we don't fly to affected airports."
         },
         {
           "aircraftType": "737",
@@ -877,14 +917,14 @@
           "callSign": "all",
           "summary": "Head-Up Display (HUD) Software Anomaly",
           "description": "A software anomaly in the HUD results in degraded display performance or inaccuracies, potentially affecting flight crew situational awareness.",
-          "operation": "Update the HUD software to the latest version and verify display performance during critical phases of flight."
+          "operation": "we don't have hud"
         },
         {
           "aircraftType": "737",
           "bulletinNo": "ETH-42(P2)",
           "callSign": "all",
           "summary": "Airspeed Low Aural Alert Anomaly",
-          "description": "The aural alert for low airspeed is triggered incorrectly under certain conditions, which may lead to misinterpretation of airspeed status.",
+          "description": "The aural alert for low airspeed may not sound,  which may lead to misinterpretation of airspeed status.",
           "operation": "Monitor airspeed closely and update the alert system to ensure warnings are accurate and timely."
         },
         {
@@ -893,7 +933,7 @@
           "callSign": "all",
           "summary": "Impact of Automatic Approaches with Fail-Operational Autoland",
           "description": "Automatic approach execution in 737NG airplanes with the fail-operational autoland option may be adversely affected, particularly during ILS approaches at specific airports.",
-          "operation": "Follow corrective procedures provided in the bulletin and update autoland software as recommended."
+          "operation": "not a destinaton."
         },
         {
           "aircraftType": "737",
@@ -901,7 +941,7 @@
           "callSign": "all",
           "summary": "Impact of Arming VNAV on the Ground on Windshear Escape Maneuver",
           "description": "Arming VNAV on the ground may negatively affect the windshear escape maneuver, potentially reducing the aircraft’s ability to avoid hazardous windshear conditions.",
-          "operation": "Adopt the updated VNAV arming procedure to minimize windshear escape issues."
+          "operation": "don't arm vnav fi software version is 10.7 or below"
         },
         {
           "aircraftType": "737",
@@ -913,11 +953,11 @@
         },
         {
           "aircraftType": "737",
-          "bulletinNo": "ETH-50(P2)",
+          "bulletinNo": "(l)ETH-50(P2)",
           "callSign": "all",
           "summary": "Localizer Overshoot on LNAV Interception (Fail Operational)",
           "description": "The aircraft may overshoot the localizer when using LNAV mode to intercept it, particularly in fail operational scenarios with Rockwell Collins FCC 9.0 or 11.1 or newer.",
-          "operation": "Adjust LNAV settings and closely monitor localizer interception; follow updated procedures to minimize overshoot."
+          "operation": "monitor localizer raw data and call deviations. "
         },
         {
           "aircraftType": "737",
@@ -949,7 +989,7 @@
           "callSign": "all",
           "summary": "Dual FMC Resets During CPDLC Operations",
           "description": "Airplanes equipped with FMC U14/U14.1 and FANS 1 or 2 experience dual FMC resets during CPDLC operations, interrupting flight management functions.",
-          "operation": "Reset the FMC, update CPDLC software, and monitor for further resets; implement the revised CPDLC procedures if issues persist."
+          "operation": "Fmc source select swithch both on R, wait 30 secs, fmc source select switch norma."
         },
         {
           "aircraftType": "737",
@@ -965,7 +1005,7 @@
           "callSign": "all",
           "summary": "Dual FMC Resets After a Conditional Waypoint",
           "description": "Following the entry of a conditional waypoint (VECTOR), some airplanes experience dual FMC resets that disrupt navigation and flight planning.",
-          "operation": "Update FMC software to handle conditional waypoints more robustly and monitor for further resets."
+          "operation": "Don't leave discontinuity after vector"
         },
         {
           "aircraftType": "737",
@@ -973,7 +1013,7 @@
           "callSign": "all",
           "summary": "Unexpected Roll Command during RNP Approaches",
           "description": "When operating with an RNP of 0.3 or below, an unexpected roll command may occur, affecting lateral stability during the approach phase.",
-          "operation": "Recalibrate the flight control system’s roll parameters and conduct validation tests during RNP approaches."
+          "operation": "Use Autopilot A, or be vigilant in case of unexpected roll"
         }
       
 
