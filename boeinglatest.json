@@ -445,7 +445,7 @@
           "callSign": "all",
           "summary": "VNAV INVALID-PERF Scratchpad Message",
           "description": "A VNAV invalid performance message appears on the scratchpad, disrupting the optimal flight profile execution. This issue interferes with the normal operation of the vertical navigation system.",
-          "operation": "Clear the invalid performance data from the scratchpad and reset the VNAV system. Verify performance inputs and update the system software if necessary."
+          "operation": "Select Approach"
         },
         {
           "aircraftType": "737MAX",
@@ -485,7 +485,7 @@
           "callSign": "all",
           "summary": "(Hot Wxr) Engine Start with High Outside Air Temperature",
           "description": "Engines may start when the outside air temperature (OAT) is at or above 40°C/104°F, which can affect engine performance and may lead to uncommanded engine behavior during start-up.",
-          "operation": "Monitor engine start closely in high OAT conditions, adjust start parameters if necessary.Turn off Engine pumps before Engine start. set start lever to idle at 20 pc n2."
+          "operation": "Monitor engine start closely in high OAT conditions, adjust start parameters if necessary.Turn off Engine hydraulic pumps before Engine start. set start lever to idle at 20 pc n2."
         },
         {
           "aircraftType": "737MAX",
@@ -525,7 +525,7 @@
           "callSign": "all",
           "summary": "Elevator Jam Landing Assist Switch",
           "description": "A malfunction in the elevator jam landing assist switch can prevent proper landing configuration, potentially compromising the landing performance of the aircraft.",
-          "operation": "Ensure the JAM Assist guard is closed"
+          "operation": "Ensure the JAM Assist guard is closed. if you want to use it, make sure it is in the ON position, not the middle positon"
         },
         {
           "aircraftType": "737MAX",
@@ -549,7 +549,7 @@
           "callSign": "all",
           "summary": "Radio Altimeter Anomalies Due to 5G Interference",
           "description": "Radio altimeters are exhibiting anomalies attributed to 5G C-Band wireless broadband interference, resulting in incorrect altitude readings during critical phases of flight.",
-          "operation": "Shield or recalibrate the radio altimeter system, and update interference mitigation protocols as recommended by the manufacturer."
+          "operation": "when operating in US airspace consider the opeating procedurs"
         },
         {
           "aircraftType": "737MAX",
@@ -609,7 +609,7 @@
         },
         {
           "aircraftType": "737MAX",
-          "bulletinNo": "ETH-26(P2)",
+          "bulletinNo": "(l)ETH-26(P2)",
           "callSign": "all",
           "summary": "Unexpected Roll Command during RNP Approaches",
           "description": "When operating with an RNP of 0.3 or below, an unexpected roll command may be generated, affecting lateral stability during the approach phase.",
@@ -638,6 +638,14 @@
         "summary": "Cockpit Voice Recorder Test Procedure Update",
         "description": "An update to the cockpit voice recorder (CVR) test procedure is required to prevent accidental erasure of recorded data during testing, ensuring accurate data retention.",
         "operation": "Follow the updated CVR test procedure which limits test duration and confirms proper recorder operation without erasing critical data."
+      },
+         {
+        "aircraftType": "737MAX",
+        "bulletinNo": "ETH-31(P2)",
+        "callSign": "all",
+        "summary": "Updates to the FCOM and qrh in respone to GPS Threats",
+        "description": "Radio frequency interference is causing both known and latent threat. GPS data unreliable nnc was created, and supplementary procedure was added",
+        "operation": "Follow the updated SP 11 Inhibiting gps updating, SP11 Manual alignment, QRH 1.5 gpws warning, qrh gps data unrelaiable nnc."
       },
        {
           "aircraftType": "737",
